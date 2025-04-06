@@ -1,0 +1,12 @@
+# Dataset root directory relative to the yolov5 directory
+path: "../drive/MyDrive/Colab Notebooks/dataset/data1010"
+
+# Train/val/test sets: specify directories, *.txt files, or lists
+train: images/train
+val: images/val
+test: # Optional path to test images
+
+# Classes (example using 80 COCO classes)
+names:
+    0: circleGate
+    1: SquareGate
